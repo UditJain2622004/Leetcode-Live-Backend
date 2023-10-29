@@ -25,8 +25,8 @@ const execute_params = {
   headers: {
     "content-type": "application/json",
     "Content-Type": "application/json",
-    "X-RapidAPI-Key": "b10063b6f7mshd920a35de930cd9p130a5djsncf74b05d49c2",
-    // "X-RapidAPI-Key": "59feebeae6msh5e475fbaffe97dbp1386c8jsnabe7693918e8",
+    // "X-RapidAPI-Key": "b10063b6f7mshd920a35de930cd9p130a5djsncf74b05d49c2",
+    "X-RapidAPI-Key": "59feebeae6msh5e475fbaffe97dbp1386c8jsnabe7693918e8",
     "X-RapidAPI-Host": "judge0-ce.p.rapidapi.com",
   },
   //   data: {
