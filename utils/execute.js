@@ -105,10 +105,9 @@ export const make_batch_request = async (code_options, testCases) => {
 
     //prettier-ignore
     while (result.data.submissions.some((res) => res.status.id === 1 || res.status.id === 2)) {
-      result = await axios.request(get_result_options);
-      // setTimeout(async function () {
-        
-      // }, 2000);
+      setTimeout(async function () {
+        result = await axios.request(get_result_options);
+      }, 1000);
     }
 
     // return the submission result
